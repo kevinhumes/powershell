@@ -54,7 +54,7 @@ do {
         
         Write-Warning "Cannot resolve: $dnsDomainName, assuming no connection to fileserver"
  
-        Start-Sleep -Seconds 3
+        Start-Sleep -Seconds 15
  
         if ($retries -eq $maxRetries){
             
