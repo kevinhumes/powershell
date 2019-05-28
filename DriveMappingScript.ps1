@@ -11,7 +11,7 @@ $driveMappingConfig=@()
    Add your internal Active Directory Domain name and custom network drives below
 #>
 
-$dnsDomainName= "tech.nicolonsky.ch"
+$dnsDomainName= "AD500.net"
 
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
